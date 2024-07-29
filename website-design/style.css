@@ -11,6 +11,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  background-color: #f2faff;
 }
 
 .logo {
@@ -24,7 +25,7 @@
   left: 150px;
 }
 
-.nav>ul {
+.nav ul {
   display: flex;
   justify-content: space-between;
 }
@@ -71,6 +72,7 @@
 #middle {
   display: flex;
   justify-content: space-between;
+  font-family: sans-serif;
   position: relative;
   top: 250px;
   width: 1200px;
@@ -89,18 +91,20 @@
 .text h2 {
   color: #4c4d5f;
   font-size: 40px;
+  z-index: -1;
 }
 
 .text p {
   color: #4c4d5f;
   font-size: 20px;
   font-family: sans-serif;
+  z-index: -1;
 }
 
 .text label {
   display: flex;
   justify-content: flex-start;
-
+  z-index: -1;
   height: 60px;
   border: 3px solid #00b289;
 }
@@ -117,11 +121,17 @@ label button {
   border: none;
 }
 
+.mid-img {
+  z-index: -1;
+}
+
 .main-middle {
   position: relative;
   top: 400px;
   margin: 0 auto;
   width: 600px;
+  font-family: sans-serif;
+  z-index: -1;
 }
 
 .main-middle h3 {
@@ -144,6 +154,7 @@ label button {
   top: 500px;
   width: 900px;
   margin: 0 auto;
+  z-index: -1;
 }
 
 .images .first {
@@ -181,6 +192,8 @@ label button {
   left: 150px;
   display: flex;
   justify-content: space-between;
+  font-family: sans-serif;
+  z-index: -1;
 }
 
 .links div {
@@ -203,6 +216,7 @@ label button {
   height: 200px;
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
   gap: 20px;
 }
 
@@ -233,6 +247,8 @@ label button {
 .container {
   position: relative;
   top: 900px;
+  font-family: sans-serif;
+  z-index: -1;
 }
 
 .container h2 {
@@ -243,6 +259,7 @@ label button {
 .para {
   position: relative;
   top: 950px;
+  z-index: -1;
 }
 
 .para p {
@@ -258,6 +275,8 @@ label button {
   top: 1050px;
   display: flex;
   justify-content: space-between;
+  font-family: sans-serif;
+  z-index: -1;
 }
 
 .one {
@@ -276,7 +295,10 @@ label button {
   position: relative;
   top: 1150px;
   font-size: 30px;
+  font-family: sans-serif;
+  color: #4c4d5f;
   text-align: center;
+  z-index: -1;
 }
 
 .last {
@@ -288,11 +310,15 @@ label button {
   background-color: #f2faff;
   display: flex;
   align-items: center;
+  z-index: -1;
 }
 
 .last h2 {
   padding: 40px;
   font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 50px;
 }
 
 .last button {
@@ -304,4 +330,70 @@ label button {
   border: 1px solid #00b289;
   border-radius: 5px;
   background-color: #00b289;
+}
+
+.main-footer {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  top: 1400px;
+  display: flex;
+  justify-content: space-around;
+  z-index: -1;
+}
+
+.main-footer div h3,
+h4 {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.main-footer div ul {
+  margin-top: 35px;
+  list-style-type: none;
+}
+
+.main-footer div a {
+  display: flex;
+  line-height: 40px;
+  text-decoration: none;
+  color: #4c4d5f;
+  font-family: sans-serif;
+}
+@media only screen and (max-width:600px){
+   #header{
+    width: 370px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   .logo{
+    margin: 20px;
+   }
+   .nav ul{
+    width: 370px;
+    height: 200px;
+    position: relative;
+    top: 15px;
+    right: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2faff;
+   }
+   .btns{border: 2px solid red;
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: -0px;
+   }
+   .btns .login{
+    width: 365px;
+   }
+   .btns .start{
+    width: 365px;
+   }
+
 }
