@@ -398,7 +398,7 @@ h4 {
   }
 
   .btns {
-    width: 460px;
+    width: 430px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -408,11 +408,11 @@ h4 {
   }
 
   .btns .login {
-    width: 460px;
+    width: 430px;
   }
 
   .btns .start {
-    width: 460px;
+    width: 430px;
   }
 
   #middle {
