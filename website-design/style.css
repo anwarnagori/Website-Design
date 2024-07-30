@@ -362,8 +362,12 @@ h4 {
 }
 
 @media only screen and (max-width:600px) {
+  
+  body{
+    width: 460px;
+  }
   #header {
-    width: 360px;
+    width: 460px;
     height: 70px;
     display: flex;
     flex-direction: column;
@@ -374,10 +378,16 @@ h4 {
     margin: 20px;
   }
 
-  
+  .nav{
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    z-index: 9999:
+  }
   .nav ul {
-    width: 365px;
+    width: 460px;
     height: 200px;
+    z-index: 1;
     position: relative;
     top: 15px;
     right: 150px;
@@ -387,87 +397,85 @@ h4 {
   }
 
   .btns {
-    width: 365px;
+    width: 460px;
     display: flex;
     flex-direction: column;
     position: relative;
     top: 30px;
-    left: -0px;
+    left: 0px;
+    text-align: center;
   }
 
   .btns .login {
-    width: 365px;
+    width: 460px;
   }
 
   .btns .start {
-    width: 365px;
+    width: 460px;
   }
 
   #middle {
-    width: 365px;
+    width: 460px;
     display: flex;
     flex-direction: column;
     position: relative;
     top: 450px;
-    right: 72px;
+    margin: 0;
   }
 
   .text {
     margin: 0px;
-    width: 360px;
+    width: 460px;
   }
 
   .text h2 {
-    width: 300px;
-    margin: 10px;
-    font-size: 20px;
+    width: 460px;
+    font-size: 30px;
   }
 
   .text p {
-    width: 350px;
-    margin: 10px;
+    width: 460px;
     position: relative;
     bottom: 40px;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .text label {
-    width: 350px;
+    width: 450px;
     height: 50px;
-    margin: 10px;
     position: relative;
     bottom: 50px;
   }
 
   .mid-img img {
-    width: 360px;
-    height: 300px;
-    margin: 0 auto;
+    width: 400px;
+    height: 350px;
+    margin-left: 50px;
   }
 
   .main-middle {
-    width: 365px;
+    width: 400px;
     position: relative;
     top: 470px;
-    right: 75px;
   }
 
   .main-middle h3 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 40px;
   }
 
   .main-middle p {
-    font-size: 10px;
+    margin-top: 15px;
+    font-size: 12px;
   }
 
   .images {
     margin: 10px;
-    width: 360px;
+    width: 400px;
     height: 200px;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   .images .first {
@@ -482,7 +490,7 @@ h4 {
   }
 
   .first p {
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .images .second {
@@ -490,53 +498,55 @@ h4 {
     height: 50px;
   }
 
-  .second img {border: 1px solid red;
+  .second img {
     margin-top: 20px;
     width: 150px;
     height: 100px;
   }
 
   .second p {
-    font-size: 12px;
+    font-size: 16px;
   }
   .end-middle{
-    width: 365px;
+    width: 400px;
     position: relative;
     top: 500px;
     left: 0;
   }
   .end-middle img{
-    width: 20px;
+    width: 25px;
   }
   .end-middle p{
-    font-size: 12px;
+    font-size: 14px;
   }
   .heading{
     display: none;
   }
   .container{
-    width: 365px;
+    width: 460px;
     position: relative;
     top: 600px;
   }
   .container h2{
-    font-size: 14px;
+    margin: 0 auto;
+    font-size: 16px;
   }
   .para{
-    width: 365px;
+    width: 460px;
     position: relative;
     top: 620px;
   }
   .para p{
-    font-size: 12px;
+    font-size: 16px;
   }
   .tow-img{
-    width: 365px;
+    width: 460px;
     position: relative;
     top: 660px;
-    display: flex;
-    justify-content: space-between;
+    left: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
   }
   .one img{
     width: 80px;
@@ -559,13 +569,13 @@ h4 {
     font-size: 10px;
   }
   .h2{
-    width: 365px;
+    width: 460px;
     position: relative;
-    top: 650px;
-    font-size: 14px;
+    top: 670px;
+    font-size: 16px;
   }
   .last{
-    width: 365px;
+    width: 460px;
     position: relative;
     top: 700px;
     margin: 0;
