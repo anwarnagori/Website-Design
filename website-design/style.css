@@ -363,7 +363,7 @@ h4 {
 
 @media only screen and (max-width:600px) {
   #header {
-    width: 370px;
+    width: 360px;
     height: 70px;
     display: flex;
     flex-direction: column;
@@ -374,6 +374,7 @@ h4 {
     margin: 20px;
   }
 
+  
   .nav ul {
     width: 365px;
     height: 200px;
@@ -390,7 +391,7 @@ h4 {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 20px;
+    top: 30px;
     left: -0px;
   }
 
@@ -465,6 +466,8 @@ h4 {
     width: 360px;
     height: 200px;
     margin: 0;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .images .first {
@@ -473,7 +476,7 @@ h4 {
   }
 
   .first img {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 150px;
     height: 100px;
   }
@@ -487,13 +490,114 @@ h4 {
     height: 50px;
   }
 
-  .second img {
-    margin-top: 10px;
+  .second img {border: 1px solid red;
+    margin-top: 20px;
     width: 150px;
     height: 100px;
   }
 
   .second p {
     font-size: 12px;
+  }
+  .end-middle{
+    width: 365px;
+    position: relative;
+    top: 500px;
+    left: 0;
+  }
+  .end-middle img{
+    width: 20px;
+  }
+  .end-middle p{
+    font-size: 12px;
+  }
+  .heading{
+    display: none;
+  }
+  .container{
+    width: 365px;
+    position: relative;
+    top: 600px;
+  }
+  .container h2{
+    font-size: 14px;
+  }
+  .para{
+    width: 365px;
+    position: relative;
+    top: 620px;
+  }
+  .para p{
+    font-size: 12px;
+  }
+  .tow-img{
+    width: 365px;
+    position: relative;
+    top: 660px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .one img{
+    width: 80px;
+  }
+  .one h3{
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .one p{
+    font-size: 10px;
+  }
+  .two img{
+    width: 80px;
+  }
+  .two h3{
+    margin: 5px;
+    font-size: 12px;
+  }
+  .two p{
+    font-size: 10px;
+  }
+  .h2{
+    width: 365px;
+    position: relative;
+    top: 650px;
+    font-size: 14px;
+  }
+  .last{
+    width: 365px;
+    position: relative;
+    top: 700px;
+    margin: 0;
+  }
+  .last h2{
+    margin: 10px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .last button{
+    width: 130px;
+    height: 40px;
+    margin-left: 0px;
+  }
+  .main-footer{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 800px;
+    margin: 0;
+  }
+  .main-footer div{
+    width: 360px;
+  }
+  .main-footer h3{
+    margin-top: 15px;
+  }
+  .main-footer li{
+    width: 360px;
+  }
+  .main-footer a{
+    width: 360px;
   }
 }
