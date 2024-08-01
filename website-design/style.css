@@ -18,38 +18,34 @@
   margin-left: 125px;
 }
 
-.nav {
-  width: 40%;
+.navbar {
+  width: 800px;
   position: relative;
   top: 0;
-  left: 150px;
-}
-
-.nav ul {
+  left: 200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.nav li {
+.navbar ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar li {
   list-style-type: none;
 }
 
-.nav a {
+.navbar a {
   color: #4c4d5f;
   font-size: 17px;
   font-family: "Proximanova opt", sans-serif;
   text-decoration: none;
 }
 
-.btns {
-  display: flex;
-  gap: 20px;
-  position: relative;
-  top: 0;
-  left: 200px;
-}
-
-.btns .login {
+.navbar .login {
   width: 85px;
   height: 35px;
   font-weight: bold;
@@ -59,7 +55,7 @@
   background-color: #ffff;
 }
 
-.btns .start {
+.navbar .start {
   width: 130px;
   height: 35px;
   font-weight: bold;
@@ -361,7 +357,11 @@ h4 {
   font-family: sans-serif;
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width: 600px) {
+  /* body {
+    width: 440px;
+  } */
+
   #header {
     width: 440px;
     height: 70px;
@@ -377,7 +377,40 @@ h4 {
     margin: 20px;
   }
 
-  .nav {
+  .menu-toggle {
+    position: absolute;
+    top: 25px;
+    left: 350px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+    width: auto;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar ul li {
+    border: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar ul li a,
+  .navbar ul li .nav-button {
+    padding: 15px 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* .nav {
     position: relative;
     bottom: 10px;
     left: 150px;
@@ -411,7 +444,7 @@ h4 {
 
   .btns .start {
     width: 440px;
-  }
+  } */
 
   #middle {
     width: 440px;
