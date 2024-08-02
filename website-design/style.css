@@ -17,7 +17,10 @@
 .logo {
   margin-left: 125px;
 }
-
+.menu-icon{
+  width: 0;
+  height: 0;
+}
 .navbar {
   width: 800px;
   position: relative;
@@ -359,8 +362,8 @@ h4 {
 
 @media only screen and (max-width: 600px) {
   #header {
-    /* width: 440px; */
     height: 70px;
+    width: 410px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -377,15 +380,18 @@ h4 {
   .menu-toggle {
     position: absolute;
     top: 25px;
-    left: 450px;
+    left: 380px;
   }
-
+  .menu-icon{
+    width: 20px;
+    height: 20px;
+  }
   .navbar {
     display: flex;
     flex-direction: column;
     position: static;
     background-color: #e6e7ec;
-    width: 520px;
+    width: 400px;
     display: none;
   }
 
@@ -410,7 +416,7 @@ h4 {
   }
 
   .navbar .nav-button {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
   }
 
@@ -419,7 +425,7 @@ h4 {
   }
 
   #middle {
-    width: 500px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -428,7 +434,8 @@ h4 {
   }
 
   .text {
-    margin: 15px;
+    width: 400px;
+    margin: 10px;
   }
 
   .text h2 {
@@ -444,7 +451,7 @@ h4 {
   }
 
   .text label {
-    width: 400px;
+    width: 320px;
     height: 60px;
     margin-left: 15px;
     position: relative;
@@ -463,7 +470,7 @@ h4 {
   }
 
   .main-middle {
-    width: 500px;
+    width: 415px;
     position: relative;
     top: 100px;
     margin: 0 auto;
@@ -481,12 +488,12 @@ h4 {
 
   .images {
     margin: 0 auto;
-    width: 500px;
+    width: 410px;
     height: 250px;
     position: absolute;
     top: 950px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .images .first {
@@ -524,7 +531,7 @@ h4 {
   }
 
   .end-middle {
-    width: 500px;
+    width: 415px;
     position: relative;
     top: 450px;
     left: 0;
@@ -544,7 +551,7 @@ h4 {
   }
 
   .container {
-    width: 500px;
+    width: 410px;
     position: relative;
     top: 550px;
   }
@@ -555,16 +562,18 @@ h4 {
   }
 
   .para {
+    width: 400px;
+    margin: 0 auto;
     position: relative;
-    top: 570px;
+    top: 580px;
   }
 
   .para p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .tow-img {
-    width: 500px;
+    width: 410px;
     position: relative;
     top: 660px;
     left: 0;
@@ -579,11 +588,11 @@ h4 {
 
   .one h3 {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .one p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .two img {
@@ -592,22 +601,22 @@ h4 {
 
   .two h3 {
     margin: 5px;
-    font-size: 14px;
-  }
-
-  .two p {
     font-size: 12px;
   }
 
+  .two p {
+    font-size: 10px;
+  }
+
   .h2 {
-    width: 500px;
+    width: 410px;
     position: relative;
     top: 700px;
     font-size: 16px;
   }
 
   .last {
-    width: 500px;
+    width: 410px;
     position: relative;
     top: 740px;
     margin: 0 auto;
