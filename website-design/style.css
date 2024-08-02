@@ -17,14 +17,17 @@
 .logo {
   margin-left: 125px;
 }
-.menu-toggle{
+
+.menu-toggle {
   width: 0;
   height: 0;
 }
-.menu-icon{
+
+.menu-icon {
   width: 0;
   height: 0;
 }
+
 .navbar {
   width: 800px;
   position: relative;
@@ -386,10 +389,12 @@ h4 {
     top: 25px;
     left: 380px;
   }
-  .menu-icon{
+
+  .menu-icon {
     width: 20px;
     height: 20px;
   }
+
   .navbar {
     display: flex;
     flex-direction: column;
