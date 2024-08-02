@@ -17,6 +17,10 @@
 .logo {
   margin-left: 125px;
 }
+.menu-toggle{
+  width: 0;
+  height: 0;
+}
 .menu-icon{
   width: 0;
   height: 0;
